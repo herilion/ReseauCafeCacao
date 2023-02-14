@@ -31,7 +31,25 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-menu">
                     <ul className='navbar-links'>
-                        <li><Link to="/ok">ACCEUIL</Link></li>
+                        <li class="dropdown">
+                            <span class="dropbtn">Dropdown</span>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li className="dropdown">
+                            <span className="dropbtn">Dropdown 22</span>
+                            <div className="dropdown-content">
+                                <a href="#">Link 22</a>
+                                <a href="#">Link 222</a>
+                                <a href="#">Link 223</a>
+                            </div>
+                        </li>
+                        <li>
+                            <Link to="/ok">ACCEUIL</Link>
+                        </li>
                         <li><Link to="/ok">PROGRAMMES</Link></li>
                         <li><Link to="/ok">NOS MEMBRES</Link></li>
                         <li><Link to="/ok">NOUVELLES</Link></li>
