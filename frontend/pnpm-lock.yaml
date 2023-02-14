@@ -8,8 +8,8 @@ specifiers:
   react: ^18.2.0
   react-bootstrap: ^2.7.2
   react-dom: ^18.2.0
-  react-icon: ^1.0.0
-  react-rooter: ^0.1.2
+  react-icons: ^4.7.1
+  react-router: ^6.8.1
   vite: ^4.1.0
 
 dependencies:
@@ -17,8 +17,8 @@ dependencies:
   react: 18.2.0
   react-bootstrap: 2.7.2_zula6vjvt3wdocc4mwcxqa6nzi
   react-dom: 18.2.0_react@18.2.0
-  react-icon: 1.0.0_react@18.2.0
-  react-rooter: 0.1.2
+  react-icons: 4.7.1_react@18.2.0
+  react-router: 6.8.1_react@18.2.0
 
 devDependencies:
   '@types/react': 18.0.28
@@ -511,6 +511,11 @@ packages:
       react: 18.2.0
     dev: false
 
+  /@remix-run/router/1.3.2:
+    resolution: {integrity: sha512-t54ONhl/h75X94SWsHGQ4G/ZrCEguKSRQr7DrjTciJXW0YU1QhlwYeycvK5JgkzlxmvrK7wq1NB/PLtHxoiDcA==}
+    engines: {node: '>=14'}
+    dev: false
+
   /@restart/hooks/0.4.9_react@18.2.0:
     resolution: {integrity: sha512-3BekqcwB6Umeya+16XPooARn4qEPW6vNvwYnlofIYe6h9qG1/VeD7UvShCWx11eFz5ELYmwIEshz+MkPX3wjcQ==}
     peerDependencies:
@@ -888,11 +893,10 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-icon/1.0.0_react@18.2.0:
-    resolution: {integrity: sha512-VzSlpBHnLanVw79mOxyq98hWDi6DlxK9qPiZ1bAK6bLurMBCaxO/jjyYUrRx9+JGLc/NbnwOmyE/W5Qglbb2QA==}
+  /react-icons/4.7.1_react@18.2.0:
+    resolution: {integrity: sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==}
     peerDependencies:
-      babel-runtime: ^5.3.3
-      react: '>=0.12.0'
+      react: '*'
     dependencies:
       react: 18.2.0
     dev: false
@@ -910,8 +914,14 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-rooter/0.1.2:
-    resolution: {integrity: sha512-s84j2TYHNL5ugkRTi4LSK/6Pfszw0sgDp6rLA5yuR4JwiHZ3RqoZnoG9MzMOzjFjSCy2UEF+HM1+sR28mnJCtg==}
+  /react-router/6.8.1_react@18.2.0:
+    resolution: {integrity: sha512-Jgi8BzAJQ8MkPt8ipXnR73rnD7EmZ0HFFb7jdQU24TynGW1Ooqin2KVDN9voSC+7xhqbbCd2cjGUepb6RObnyg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.3.2
+      react: 18.2.0
     dev: false
 
   /react-transition-group/4.4.5_biqbaboplfbrettd7655fr4n2y:
