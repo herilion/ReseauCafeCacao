@@ -1,5 +1,4 @@
-import React from 'react'
-import NavBar from './composants/NavBar'
+import NavBar from './composants/navbar/NavBar'
 
 const App = () => {
   return (

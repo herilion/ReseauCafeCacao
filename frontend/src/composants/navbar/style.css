@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d1342c;
+    color: rgb(229, 227, 227);
+    font-weight: 200;
+    padding: 5px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.046);
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 26px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: rgb(1, 1, 57);
+}
+
+.navbar-links li:hover {
+    color: rgb(0, 194, 0);
+    transition: all 1s ease;
+}
+
+.top-icons-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.top-search-icon {
+    cursor: pointer;
+}
