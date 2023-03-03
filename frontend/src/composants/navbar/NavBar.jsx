@@ -34,12 +34,13 @@ const NavBar = () => {
                         <li>
                             <Link to="/ok">ACCEUIL</Link>
                         </li>
+                        <li><Link to="/ok">PROGRAMMES</Link></li>
                         <li class="dropdown">
-                            <span class="dropbtn">Dropdown</span>
+                            <span class="dropbtn">NOS MEMBRES</span>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">DEVENIR MEMBRES</a>
+                                <a href="#">LISTE DES MEMBRES</a>
+                                <a href="#">MEMBRE DU MOIS</a>
                             </div>
                         </li>
                         <li className="dropdown">
@@ -51,7 +52,7 @@ const NavBar = () => {
                             </div>
                         </li>
 
-                        <li><Link to="/ok">PROGRAMMES</Link></li>
+
                         <li><Link to="/ok">NOS MEMBRES</Link></li>
                         <li><Link to="/ok">NOUVELLES</Link></li>
                         <li><Link to="/ok">RESSOURCES</Link></li>
