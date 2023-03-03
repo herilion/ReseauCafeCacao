@@ -31,6 +31,9 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-menu">
                     <ul className='navbar-links'>
+                        <li>
+                            <Link to="/ok">ACCEUIL</Link>
+                        </li>
                         <li class="dropdown">
                             <span class="dropbtn">Dropdown</span>
                             <div class="dropdown-content">
@@ -47,9 +50,7 @@ const NavBar = () => {
                                 <a href="#">Link 223</a>
                             </div>
                         </li>
-                        <li>
-                            <Link to="/ok">ACCEUIL</Link>
-                        </li>
+
                         <li><Link to="/ok">PROGRAMMES</Link></li>
                         <li><Link to="/ok">NOS MEMBRES</Link></li>
                         <li><Link to="/ok">NOUVELLES</Link></li>
