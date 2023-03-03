@@ -51,9 +51,6 @@ const NavBar = () => {
                                 <a href="#">Link 223</a>
                             </div>
                         </li>
-
-
-                        <li><Link to="/ok">NOS MEMBRES</Link></li>
                         <li><Link to="/ok">NOUVELLES</Link></li>
                         <li><Link to="/ok">RESSOURCES</Link></li>
                         <li><Link to="/ok">A PROPOS</Link></li>
