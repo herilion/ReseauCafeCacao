@@ -44,11 +44,11 @@ const NavBar = () => {
                             </div>
                         </li>
                         <li className="dropdown">
-                            <span className="dropbtn">Dropdown 22</span>
+                            <span className="dropbtn">BLOG</span>
                             <div className="dropdown-content">
-                                <a href="#">Link 22</a>
-                                <a href="#">Link 222</a>
-                                <a href="#">Link 223</a>
+                                <a href="#">NOUVELLES</a>
+                                <a href="#">CONFERENCES</a>
+                                <a href="#">GALERIE</a>
                             </div>
                         </li>
                         <li><Link to="/ok">NOUVELLES</Link></li>
